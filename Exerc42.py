@@ -1,0 +1,6 @@
+#Faça um algoritmo que leia 5 números e informe a soma e a média dos números.
+numeros =  []
+for n in range(5):
+     numeros.append(int (input(f"Digite o {n+1}° número: ")))
+     print (numeros)
+     print(sum(numeros)/len(numeros))
